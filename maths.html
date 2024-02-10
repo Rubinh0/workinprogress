@@ -2,12 +2,31 @@
 	<meta charset= "UTF-8">
 	<meta name="description" content="my very (un)finished math page">
 <style>
-	h1 {font-size: 56px;text-align: center;}
+	h1 {font-family: "Overpass Mono ", monospace;
+		font-size: 126px;
+		font-weight:lighter;
+		font-stretch: expanded;
+		text-align: center;
+		color: #01030d;}
+	h2 {font-size: 36px;text-align: center; color:#01030d}
 	body {
-	  background-color: #12110b;
+	  background-color: #aaacb5;
+	  margin-top: 100px;
+	  margin-bottom: 200px;
+	  margin-left: 200px;
+	  margin-right: 200px;
 	}
-	p,hr,h1,ul,li {font-family: 'Fira Code', monospace ; color: #f3bd8e;}
-	p,ul,li {font-size:16px;}
+	p,hr,ul,li {font-family: 'Fira Code', monospace ; color: #01030d;}
+	p,ul,li,a {font-size:16px;}
+	a {font-family: 'Fira Code', monospace ; color: #d8677e;}
+	div {
+  		border: 1px solid rgba(0, 0, 0, 0);
+		/* background-color: #75364e;*/
+		background: radial-gradient(#2952ea,#f38798);
+		border-radius: 20px;
+		height: 400px 
+	}
+
 </style>
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -15,7 +34,37 @@
 <script src="/mathjax/tex-chtml.js" id="MathJax-script" async></script>
 
 <body>
-	<p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+	<h1>Maths</h1>
+	<div> </div>
+	<p>Since I want to go to a german university, I will mostly write the maths content in german. I use <a href="https://en.wikipedia.org/wiki/LaTeX" target="_blank">\(\LaTeX\)</a> to write some maths formulas and it's possible to use \(\LaTeX\) in a webpage thanks to <a href="https://www.mathjax.org/" target="_blank">Mathjax</a>. I hope it's interesting enough and I will do what I can to make the content and the aesthetic of this small blog as nice to read as possible.</p>
+	<h2></h2>
+	<p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\)
+		
+		<nav>
+			<ul>
+				<li><a href="#section1">Rechnen mit Brüchen (Bruchrechnung)</a></li>
+				<li><a href="#section2">Section 2</a></li>
+				<li><a href="#section3">Section 3</a></li>
+			</ul>
+		</nav>
+	
+		<main>
+			<section id="section1">
+				<h2>Rechnen mit Brüchen (Bruchrechnung)</h2>
+				<p>Contenu de la section 1.</p>
+			</section>
+	
+			<section id="section2">
+				<h2>Section 2</h2>
+				<p>Contenu de la section 2.</p>
+			</section>
+	
+			<section id="section3">
+				<h2>Section 3</h2>
+				<p>Contenu de la section 3.</p>
+			</section>
+		</main
+
 
 </p>
 </body>
