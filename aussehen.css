@@ -1,0 +1,25 @@
+h1 {font-family: "Overpass Mono ", monospace;
+    font-size: 86px;
+    font-weight:lighter;
+    font-stretch: expanded;
+    text-align: center;
+    }
+h2 {font-size: 36px;text-align: center;}
+body {
+  background-color: #080502;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+p,hr,ul,li,h1,h2,h3,h4,h5,h6 {font-family: 'Fira Code', monospace ; color: #faf2eb;}
+p,ul,li,a {font-size:16px;}
+a {font-family: 'Fira Code', monospace ; color: #769929;}
+div {
+      border: 1px solid rgba(0, 0, 0, 0);
+    /* background-color: #75364e;*/
+    background: radial-gradient(#c46f36,#606c1e);
+    border-radius: 20px;
+    height: 400px;
+    opacity: 90%; 
+}
